@@ -1,0 +1,48 @@
+const cases = [
+	{
+		name: "ACUSA",
+		imagePath: "/acusa.jpg",
+		intro: "Ajayi Crowther University Student Assembly website to showcase the activities and events of the whole university.",
+		path: "acusa",
+		primaryColor: "102082",
+		role: "Full Stack Developer",
+		period: "Middle 2021",
+		visitURL: "https://acusa.com",
+		showcaseImages: ["/acusaone.jpg", "/acusatwo.jpg", "/acusathree.jpg"],
+	},
+	{
+		name: "B.One Concept",
+		imagePath: "/bconcept.jpg",
+		intro: "A website to showcase one's business in electronics and its accessories",
+		path: "bconcept",
+		primaryColor: "a36c3c",
+		role: "Full Stack Developer",
+		period: "Middle 2021",
+		visitURL: "https://acusa.com",
+		showcaseImages: ["/acusaone.jpg", "/acusatwo.jpg", "/acusathree.jpg"],
+	},
+	{
+		name: "Safepay",
+		imagePath: "/acusa.jpg",
+		intro: "Ajayi Crowther University Student Assembly website to showcase the activities and events of the whole university.",
+		path: "safepay",
+		primaryColor: "102082",
+		role: "Full Stack Developer",
+		period: "Middle 2021",
+		visitURL: "https://acusa.com",
+		showcaseImages: ["/acusaone.jpg", "/acusatwo.jpg", "/acusathree.jpg"],
+	},
+	{
+		name: "Concept",
+		imagePath: "/bconcept.jpg",
+		intro: "A website to showcase one's business in electronics and its accessories",
+		path: "concept",
+		primaryColor: "a36c3c",
+		role: "Full Stack Developer",
+		period: "Middle 2021",
+		visitURL: "https://acusa.com",
+		showcaseImages: ["/acusaone.jpg", "/acusatwo.jpg", "/acusathree.jpg"],
+	},
+];
+
+export default cases;
