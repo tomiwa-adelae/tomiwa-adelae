@@ -5,7 +5,9 @@ const Interested = () => {
 	return (
 		<div className="interested">
 			<div className="container">
-				<h3>Interested in working with me?😁</h3>
+				<h3 className="text-primary">
+					Interested in working with me?😁
+				</h3>
 				<p>
 					I'm always willing to talk about product design and
 					development work, as well as partnership opportunities.

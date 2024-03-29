@@ -6,7 +6,7 @@ const CaseStudies = () => {
 	return (
 		<div className="case-studies">
 			<div className="container">
-				<h4>Latest Works</h4>
+				<h4 className="text-primary">Latest Works</h4>
 				<div className="cases">
 					{cases.map((caseStudy, index) => (
 						<div

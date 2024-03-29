@@ -72,7 +72,11 @@ const Footer = () => {
 					<IoMailOutline className="envelope" />
 				</a>
 			</div>
-			<p>&copy; 2024 Tomiwa Adelae. All Rights Reserved</p>
+			<p>
+				&copy; 2024{" "}
+				<span className="text-primary">Tomiwa Adelae. </span>
+				All Rights Reserved
+			</p>
 		</footer>
 	);
 };

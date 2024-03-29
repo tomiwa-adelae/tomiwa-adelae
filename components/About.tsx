@@ -10,7 +10,10 @@ const About = () => {
 					height={1000}
 					width={1000}
 				/>
-				<h3>Hello, my name is Tomiwa Adelae👋</h3>
+				<h3>
+					Hello, my name is{" "}
+					<span className="text-primary">Tomiwa Adelae👋</span>
+				</h3>
 				<p>
 					As a website programmer and freelancer for over four years,
 					I've completed personal projects, remote work for agencies,

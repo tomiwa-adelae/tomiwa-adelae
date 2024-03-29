@@ -156,11 +156,11 @@
 
 @media (max-width: 680px) {
 	h1 {
-		font-size: 2.5rem;
+		font-size: 2.2rem;
 	}
 
 	h2 {
-		font-size: 1.7rem;
+		font-size: 1.6rem;
 	}
 
 	h3 {
@@ -202,6 +202,15 @@
 			.cases {
 				.case {
 					height: 45vh;
+					padding: 2rem 1rem;
+				}
+			}
+		}
+
+		.skills {
+			.skills {
+				div {
+					padding: 2rem 1rem;
 				}
 			}
 		}

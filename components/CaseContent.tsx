@@ -10,7 +10,13 @@ const CaseContent = () => {
 	return (
 		<div className="case-content">
 			<div className="container">
-				<h3>The Project</h3>
+				<h3
+					style={{
+						color: `#${caseStudy[0].primaryColor}`,
+					}}
+				>
+					The Project
+				</h3>
 
 				<p>{caseStudy[0].intro}</p>
 

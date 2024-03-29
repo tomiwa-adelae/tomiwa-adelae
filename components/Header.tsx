@@ -1,5 +1,6 @@
 import { Smooch } from "next/font/google";
 import Link from "next/link";
+import { IoIosArrowForward } from "react-icons/io";
 
 const smooch = Smooch({
 	weight: ["400"],
@@ -15,7 +16,8 @@ const Header = () => {
 				</h4>
 			</Link>
 			<Link href="/contact" className="btn btn-primary">
-				Get in touch
+				<span>Get in touch</span>
+				<IoIosArrowForward />
 			</Link>
 		</header>
 	);

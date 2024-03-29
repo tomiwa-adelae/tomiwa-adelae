@@ -12,7 +12,10 @@ const Showcase = () => {
 			<h1 className={smooch.className}>
 				Tomiwa <span className="text-primary">Adelae</span>
 			</h1>
-			<h5>Full Stack Web Developer</h5>
+			<h5>
+				<span className="text-primary">Full Stack </span>
+				Web Developer
+			</h5>
 			<div
 				onClick={() => {
 					window.scroll({
