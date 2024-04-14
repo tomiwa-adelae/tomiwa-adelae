@@ -8,6 +8,7 @@ import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
 	title: "Latest Work | Tomiwa Adelae",
+	description: "Latest cases or projects",
 };
 
 const page = () => {

@@ -1,5 +1,4 @@
 "use client";
-import { IoIosArrowDown } from "react-icons/io";
 import { Smooch } from "next/font/google";
 import { useParams } from "next/navigation";
 import cases from "@/data/case";

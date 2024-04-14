@@ -11,7 +11,7 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
 	title: "Tomiwa Adelae",
 	description:
-		"Welcome to Tomiwa Adelae digital showcase! Tomiwa Adelae is a passionate website developer dedicated to crafting immersive online experiences. Through a blend of creativity and technical expertise, my portfolio encapsulates a diverse range of projects, from sleek corporate websites to dynamic e-commerce platforms. With a focus on user-centric design and cutting-edge technologies, I bring ideas to life and empower businesses to thrive in the digital realm. Explore my work, delve into my skills, and let's collaborate to turn your vision into reality.",
+		"Tomiwa Adelae, a skilled website developer. Known for crafting immersive online experiences, Tomiwa's portfolio spans from corporate websites to dynamic e-commerce platforms. With a focus on user-centric design and innovative technologies, he brings ideas to life and empowers businesses to succeed in the digital space. Collaborate with Tomiwa to transform your vision into reality.",
 	keywords:
 		"Tomiwa, Adelae, Tomiwa Adelae, Adetomiwa, Adetomiwa Adelae, Portfolio, website, website developer, web, website development, programmer, programming, backend, frontend, full stack, stack",
 };

@@ -53,7 +53,7 @@ const Footer = () => {
 				<a
 					target="_blank"
 					rel="noopener noreferrer"
-					href="https://www.linkedin.com/in/tomiwa-ademola-6a08181b7/"
+					href="https://www.linkedin.com/in/tomiwa-adelae-6a08181b7/"
 				>
 					<IoLogoLinkedin className="linkedin" />
 				</a>
