@@ -8,7 +8,7 @@ const irishGrover = Irish_Grover({
 const Footer = () => {
 	return (
 		<footer
-			className={`font-semibold text-base p-8 container ${irishGrover.className}`}
+			className={`font-semibold text-sm text-center p-8 container ${irishGrover.className}`}
 		>
 			&copy; 2024 Tom<span className="text-purple-500">iwa Ade</span>lae.
 			All Rights Reserved

@@ -45,7 +45,7 @@ const LatestWorks = () => {
 							<p className="text-sm md:text-base">
 								{work.description}
 							</p>
-							<ul className="text-base font-semibold text-purple-500 flex items-center justify-center lg:justify-start gap-4">
+							<ul className="text-sm font-semibold text-purple-500 flex items-center flex-wrap text-center justify-center lg:justify-start gap-4">
 								{work.stack.map((stack, index) => (
 									<a
 										href={stack.link}
