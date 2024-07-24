@@ -24,7 +24,7 @@ const LatestWorks = () => {
 			<div className="grid grid-cols-1 gap-8">
 				{latestWorks.map((work, index) => (
 					<div
-						className="border-2 border-dashed border-purple-500 rounded-md p-8 grid grid-cols-1 lg:grid-cols-2 gap-8"
+						className="border-2 border-dashed border-purple-500 rounded-md p-2 lg:p-8 grid grid-cols-1 lg:grid-cols-2 gap-8"
 						key={index}
 					>
 						<Image
@@ -36,7 +36,7 @@ const LatestWorks = () => {
 								index == 1 ? "lg:order-last" : "lg:order-first"
 							}`}
 						/>
-						<div className="space-y-4 text-center lg:text-left">
+						<div className="space-y-4 p-2 lg:p-0 text-center lg:text-left">
 							<h3
 								className={`uppercase ${irishGrover.className} text-2xl text-purple-500`}
 							>

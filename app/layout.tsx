@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Montserrat as FontSans } from "next/font/google";
+import { Montserrat } from "next/font/google";
 
 import { cn } from "@/lib/utils";
 import { Spotlight } from "@/components/ui/spotlight";
@@ -18,10 +18,9 @@ export const metadata: Metadata = {
 	},
 };
 
-const fontSans = FontSans({
+const montserrat = Montserrat({
 	subsets: ["latin"],
 	weight: ["400"],
-	variable: "--font-sans",
 });
 
 export default function RootLayout({
@@ -32,7 +31,9 @@ export default function RootLayout({
 	return (
 		<html lang="en" suppressHydrationWarning>
 			<head />
-			<body className={(cn(`antialiased font-sans`), fontSans.variable)}>
+			<body
+				className={(cn(`antialiased font-sans`), montserrat.className)}
+			>
 				<Spotlight
 					className="-top-5 left-10 md:left-30 md:-top-10"
 					fill="#5795de"
