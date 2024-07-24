@@ -104,7 +104,7 @@ const ContactMe = () => {
 					const Icon = contact.icon;
 					return (
 						<div
-							className="rounded-md p-8 border-2 border-purple-500 border-dashed"
+							className="rounded-md p-3 lg:p-8 border-2 border-purple-500 border-dashed"
 							key={index}
 						>
 							<div className="p-4 rounded-md border border-dashed border-purple-500 inline-block bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-50">
