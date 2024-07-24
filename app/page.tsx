@@ -1,21 +1,23 @@
-import Showcase from "@/components/Showcase";
-import Header from "../components/Header";
 import About from "@/components/About";
-import CaseStudies from "@/components/CaseStudies";
-import Skills from "@/components/Skills";
-import Interested from "@/components/Interested";
+import ContactMe from "@/components/ContactMe";
 import Footer from "@/components/Footer";
+import Header from "@/components/Header";
+import LatestWorks from "@/components/LatestWorks";
+import MySkills from "@/components/MySkills";
+import Showcase from "@/components/Showcase";
 
-export default function Home() {
+const page = () => {
 	return (
-		<div className="homepage">
+		<main>
 			<Header />
 			<Showcase />
 			<About />
-			<CaseStudies />
-			<Skills />
-			<Interested />
+			<LatestWorks />
+			<MySkills />
+			<ContactMe />
 			<Footer />
-		</div>
+		</main>
 	);
-}
+};
+
+export default page;
