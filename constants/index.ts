@@ -11,7 +11,7 @@ import {
 } from "lucide-react";
 
 export const aboutMe =
-	"As a website programmer and freelancer for over four years, I've completed personal projects, remote work for agencies, and consulted for startups. Collaborating with talented individuals, I've created digital products for diverse uses. I'm quietly confident, naturally curious, and continually strive to enhance my skills with each design challenge.";
+	"As a website programmer and freelancer for over four years, I've completed personal projects, remote work for agencies, and consulted for startups. Collaborating with talented individuals, I've created digital products for diverse uses. I'm quiet confident, naturally curious, and continually strive to enhance my skills with each design challenge.";
 
 export const contact = [
 	{
