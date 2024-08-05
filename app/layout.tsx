@@ -38,7 +38,11 @@ export default function RootLayout({
 					className="-top-5 left-10 md:left-30 md:-top-10"
 					fill="#5795de"
 				/>
-				<main className="min-h-screen w-full dark:bg-dark bg-white  dark:bg-grid-white/[0.2] bg-grid-black/[0.2] relative flex items-center justify-center text-dark dark:text-white">
+				{/*<main className="min-h-screen w-full dark:bg-dark bg-white  dark:bg-grid-white/[0.2] bg-grid-black/[0.2] relative flex items-center justify-center text-dark dark:text-white">
+					<ThemeProvider>{children}</ThemeProvider>
+					<Toaster />
+				</main>*/}
+				<main className="min-h-screen w-full dark:bg-dark bg-white relative flex items-center justify-center text-dark dark:text-white">
 					<ThemeProvider>{children}</ThemeProvider>
 					<Toaster />
 				</main>
