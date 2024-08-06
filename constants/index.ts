@@ -318,3 +318,7 @@ export const themes = [
 		icon: MonitorCog,
 	},
 ];
+
+export const interestedFields = [
+	'Frontend development', 'Backend development', 'Full stack development'
+]
