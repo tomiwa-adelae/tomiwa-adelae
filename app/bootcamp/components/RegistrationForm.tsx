@@ -30,6 +30,7 @@ import {
 } from "@/components/ui/select";
 import { interestedFields } from "@/constants";
 import { registerUser } from "../../../lib/actions/user.actions";
+import { useRouter } from "next/navigation";
 
 const FormSchema = z.object({
 	firstName: z.string().min(2, {
@@ -52,6 +53,9 @@ const FormSchema = z.object({
 });
 
 export function RegistrationForm() {
+
+	const router = useRouter()
+
 	const form = useForm<z.infer<typeof FormSchema>>({
 		resolver: zodResolver(FormSchema),
 		defaultValues: {
@@ -80,12 +84,14 @@ export function RegistrationForm() {
 				description:
 					"Your registration has been sent successfully! I will get back to you within the next 24 hours.",
 			});
+			router.push('/success')
 		} catch (error) {
 			toast({
 				title: "Error!",
 				description:
 					"An error occurred! Your message couldn't successfully send. Please reach out to me via email or phone number.",
 			});
+			router.push('/error')
 		}
 	}
 
