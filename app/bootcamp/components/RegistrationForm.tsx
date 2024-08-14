@@ -149,6 +149,7 @@ export function RegistrationForm() {
 								<FormLabel>Email</FormLabel>
 								<FormControl>
 									<Input
+									type='email'
 										placeholder="Enter your email"
 										{...field}
 									/>
