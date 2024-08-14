@@ -32,7 +32,7 @@ const Showcase = () => {
 				<span className="text-purple-500">occured!</span>
 			</h1>
 			<p className="text-base my-6 font-medium container">
-            An error occurred! Your message couldn't successfully send. Please reach out to me via email or phone number.
+            An error occurred! Your message couldn&apos;t successfully send. Please reach out to me via email or phone number.
 			</p>
 			<div className="w-full container h-40 relative mt-4">
 				{/* Gradients */}
