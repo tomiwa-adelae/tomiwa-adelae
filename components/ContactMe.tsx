@@ -115,7 +115,11 @@ const ContactMe = () => {
 									{contact.title}
 								</h3>
 								<a
-									href={contact.name}
+									href={
+										contact.name === "(+234) 802 783 6001"
+											? `tel:${contact.name}`
+											: `mailto:${contact.name}`
+									}
 									target="_blank"
 									className="font-bold text-sm underline hover:text-purple-500 transition"
 								>
