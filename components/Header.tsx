@@ -25,13 +25,13 @@ const Header = () => {
 					height={1000}
 					className="w-8 h-8 md:w-10 md:h-10 object-cover"
 				/>
-				<h1
+				<h3
 					className={`hidden sm:block font-extrabold text-lg md:text-xl lg:text-2xl ${irishGrover.className}`}
 				>
 					Tom
 					<span className={`text-purple-500`}>iwa Ade</span>
 					lae
-				</h1>
+				</h3>
 			</Link>
 			<div className="flex h-5 items-center space-x-4 text-sm">
 				<Theme />
