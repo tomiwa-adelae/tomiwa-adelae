@@ -6,6 +6,7 @@ import { cn } from "@/lib/utils";
 import { Spotlight } from "@/components/ui/spotlight";
 import { Toaster } from "@/components/ui/toaster";
 import { ThemeProvider } from "@/context/ThemeProvider";
+import Head from "next/head";
 
 export const metadata: Metadata = {
 	title: "Tomiwa Adelae | A full stack developer",
@@ -30,7 +31,9 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en" suppressHydrationWarning>
-			<head />
+			<Head>
+				<meta property="og:image" content="/assets/full-logo.png" />
+			</Head>
 			<body
 				className={(cn(`antialiased font-sans`), montserrat.className)}
 			>
