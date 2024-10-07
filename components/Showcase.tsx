@@ -10,7 +10,7 @@ const irishGrover = Irish_Grover({
 
 const Showcase = () => {
 	return (
-		<div className="min-h-[50vh] sm:min-h-[75vh] py-10 w-full flex flex-col items-center relative justify-center overflow-hidden rounded-md container">
+		<div className="min-h-[50vh] sm:min-h-[75vh] py-10 w-full flex flex-col items-center text-center relative justify-center overflow-hidden rounded-md container">
 			<h1
 				className={`${irishGrover.className} uppercase text-5xl sm:text-6xl md:text-7xl lg:text-8xl`}
 			>
