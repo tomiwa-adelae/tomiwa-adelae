@@ -33,13 +33,40 @@ export const contact = [
 
 export const latestWorks = [
 	{
+		image: "/assets/yafpay.png",
+		title: "YafPay",
+		description:
+			"Welcome to YafPay, where financial convenience knows no bounds. With our innovative banking app, YafPay, you can seamlessly transfer and deposit money anytime, anywhere in the world, putting the power of global transactions in the palm of your hand. Services offered includes: Powerful Mobile & Online App, Full Data Privacy Compliance, 100% Transparent Cost, Commitment Free, Free Plan Available, Debit Mastercard.",
+		github: "https://github.com/ashu378/yafpay-website",
+		website: "https://yafpay.com/",
+		style: "order-first",
+		stack: [
+			{
+				name: "NextJS",
+				link: "https://nextjs.org/",
+			},
+			{
+				name: "NodeJS",
+				link: "https://nodejs.org/en",
+			},
+			{
+				name: "ExpressJS",
+				link: "https://expressjs.com/",
+			},
+			{
+				name: "MongoDB",
+				link: "https://www.mongodb.com/",
+			},
+		],
+	},
+	{
 		image: "/assets/ontime.png",
 		title: "QRCode Attendance system",
 		description:
 			"Taking attendance manually with pen and paper becomes cumbersome as the population increases. There is a crucial need for a swift attendance system that offers speed, authentication, and precise record-keeping. Implementing a QRCode system enhances the attendance process, making it five times faster. This platform operates smoothly and is already in use in schools and universities.",
 		github: "https://github.com/tomiwa-adelae/On-Time",
-		website: "http://ontime-zeta.vercel.app/",
-		style: "order-first",
+		website: "https://ontime-zeta.vercel.app/",
+		style: "order-last",
 		stack: [
 			{
 				name: "NextJS",
@@ -66,7 +93,7 @@ export const latestWorks = [
 			"Obtaining an exeat pass can be a stressful task for both students and administrators. This online platform streamlines the process, enhancing productivity for everyone involved.",
 		github: "https://github.com/tomiwa-adelae/Online-pass-system",
 		website: "https://passify-eight.vercel.app/",
-		style: "order-last",
+		style: "order-first",
 		stack: [
 			{
 				name: "NextJS",
@@ -93,7 +120,7 @@ export const latestWorks = [
 			"Publicity is a crucial factor in enhancing a university's reputation. A website for the Student Assembly of Ajayi Crowther University would highlight the school's activities and achievements. This website features events, news, information about the executives, press release archives, and articles.",
 		github: "https://github.com/tomiwa-adelae/ACUSA",
 		website: "https://acusa.com.ng/",
-		style: "order-first",
+		style: "order-last",
 		stack: [
 			{
 				name: "HTML",
@@ -320,5 +347,7 @@ export const themes = [
 ];
 
 export const interestedFields = [
-	'Frontend development', 'Backend development', 'Full stack development'
-]
+	"Frontend development",
+	"Backend development",
+	"Full stack development",
+];
