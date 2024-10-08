@@ -39,7 +39,7 @@ export const latestWorks = [
 			"Welcome to YafPay, where financial convenience knows no bounds. With our innovative banking app, YafPay, you can seamlessly transfer and deposit money anytime, anywhere in the world, putting the power of global transactions in the palm of your hand. Services offered includes: Powerful Mobile & Online App, Full Data Privacy Compliance, 100% Transparent Cost, Commitment Free, Free Plan Available, Debit Mastercard.",
 		github: "https://github.com/ashu378/yafpay-website",
 		website: "https://yafpay.com/",
-		style: "order-first",
+		style: "order-last",
 		stack: [
 			{
 				name: "NextJS",
@@ -120,7 +120,7 @@ export const latestWorks = [
 			"Publicity is a crucial factor in enhancing a university's reputation. A website for the Student Assembly of Ajayi Crowther University would highlight the school's activities and achievements. This website features events, news, information about the executives, press release archives, and articles.",
 		github: "https://github.com/tomiwa-adelae/ACUSA",
 		website: "https://acusa.com.ng/",
-		style: "order-last",
+		style: "order-first",
 		stack: [
 			{
 				name: "HTML",
