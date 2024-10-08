@@ -25,7 +25,7 @@ const About = () => {
 			</div>
 			<div className="container flex items-center justify-center text-center flex-col gap-4 pb-10 relative z-20">
 				<Image
-					src="/assets/tomiwa-adelae.jfif"
+					src="/assets/tomiwa-adelae.jpeg"
 					alt="Tomiwa Adelae"
 					width={1000}
 					height={1000}
