@@ -10,7 +10,7 @@ const Footer = () => {
 		<footer
 			className={`font-semibold text-sm text-center p-8 container ${irishGrover.className}`}
 		>
-			&copy; 2024 Tom<span className="text-purple-500">iwa Ade</span>lae.
+			&copy; 2025 Tom<span className="text-purple-500">iwa Ade</span>lae.
 			All Rights Reserved
 		</footer>
 	);
