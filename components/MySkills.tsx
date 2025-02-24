@@ -24,13 +24,13 @@ const MySkills = () => {
 							key={index}
 						>
 							<div
-								className={`uppercase flex items-center ${skill.direction} gap-2 ${irishGrover.className} text-2xl sm:text-3xl md:text-4xl text-purple-500`}
+								className={`uppercase flex items-center ${skill.direction} gap-2 ${irishGrover.className} text-2xl sm:text-3xl md:text-4xl text-purple-500 leading-loose md:leading-loose`}
 							>
 								<Icon />
 								<h3>{skill.title}</h3>
 							</div>
 							<p
-								className={`text-sm md:text-base ${skill.style} font-semibold my-4`}
+								className={`text-sm md:text-base ${skill.style} font-semibold my-4 leading-loose md:leading-loose`}
 							>
 								{skill.description}
 							</p>

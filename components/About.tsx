@@ -29,15 +29,17 @@ const About = () => {
 					alt="Tomiwa Adelae"
 					width={1000}
 					height={1000}
-					className="rounded-full object-cover w-[250px] h-[250px] border-2 border-purple-500 border-dashed"
+					className="rounded-full object-cover w-[250px] h-[250px] md:w-[300px] md:h-[300px] border-2 border-purple-500 border-dashed"
 				/>
 				<h2
-					className={`${irishGrover.className} text-2xl sm:text-3xl md:text-4xl lg:text-5xl`}
+					className={`${irishGrover.className} text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-normal md:leading-normal lg:leading-normal`}
 				>
 					Hello, my name is Tom
 					<span className="text-purple-500">iwa Ade</span>lae 👋
 				</h2>
-				<p className="text-sm md:text-base">{aboutMe}</p>
+				<p className="text-sm md:text-base leading-loose md:leading-loose">
+					{aboutMe}
+				</p>
 			</div>
 		</div>
 	);

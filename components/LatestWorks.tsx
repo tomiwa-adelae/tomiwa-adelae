@@ -42,7 +42,7 @@ const LatestWorks = () => {
 							>
 								{work.title}
 							</h3>
-							<p className="text-sm md:text-base">
+							<p className="text-sm md:text-base leading-loose md:leading-loose">
 								{work.description}
 							</p>
 							<ul className="text-sm font-semibold text-purple-500 flex items-center flex-wrap text-center justify-center lg:justify-start gap-4">

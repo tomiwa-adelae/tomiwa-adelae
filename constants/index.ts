@@ -2,12 +2,9 @@ import {
 	CodeXml,
 	Mail,
 	MapPin,
-	MonitorCog,
-	MoonStar,
 	PencilRuler,
 	Phone,
 	Server,
-	Sun,
 } from "lucide-react";
 
 export const aboutMe =
@@ -334,15 +331,15 @@ export const skills = [
 export const themes = [
 	{
 		value: "light",
-		icon: Sun,
+		icon: "/assets/icons/sun.svg",
 	},
 	{
 		value: "dark",
-		icon: MoonStar,
+		icon: "/assets/icons/moon.svg",
 	},
 	{
 		value: "system",
-		icon: MonitorCog,
+		icon: "/assets/icons/laptop-settings.svg",
 	},
 ];
 

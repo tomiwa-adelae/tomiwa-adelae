@@ -12,7 +12,7 @@ const Showcase = () => {
 	return (
 		<div className="min-h-[50vh] sm:min-h-[75vh] py-10 w-full flex flex-col items-center text-center relative justify-center overflow-hidden rounded-md container">
 			<h1
-				className={`${irishGrover.className} uppercase text-5xl sm:text-6xl md:text-7xl lg:text-8xl`}
+				className={`${irishGrover.className} uppercase text-5xl sm:text-6xl md:text-7xl lg:text-8xl leading-normal md:leading-normal`}
 			>
 				Tom<span className="text-purple-500">iwa Ade</span>lae
 			</h1>

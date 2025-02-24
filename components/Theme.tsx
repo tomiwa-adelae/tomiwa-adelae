@@ -19,6 +19,7 @@ import { Irish_Grover } from "next/font/google";
 
 import { useTheme } from "@/context/ThemeProvider";
 import { themes } from "@/constants";
+import Image from "next/image";
 
 const irishGrover = Irish_Grover({
 	subsets: ["latin"],
@@ -32,12 +33,27 @@ export function Theme() {
 		<DropdownMenu>
 			<DropdownMenuTrigger asChild>
 				<Button size={"icon"} variant="ghost">
-					{mode === "light" ? <Sun /> : <MoonStar />}
+					{mode === "light" ? (
+						<Image
+							src={"/assets/icons/sun.svg"}
+							alt={"Sun Icon"}
+							width={1000}
+							height={1000}
+							className="w-[20px] h-[20px]"
+						/>
+					) : (
+						<Image
+							src={"/assets/icons/moon.svg"}
+							alt={"Moon Icon"}
+							width={1000}
+							height={1000}
+							className="w-[20px] h-[20px] invert"
+						/>
+					)}
 				</Button>
 			</DropdownMenuTrigger>
 			<DropdownMenuContent>
 				{themes.map((item, index) => {
-					const Icon = item.icon;
 					return (
 						<DropdownMenuItem
 							className={`${
@@ -56,7 +72,14 @@ export function Theme() {
 								}
 							}}
 						>
-							<Icon className="mr-2" /> <p>{item.value}</p>
+							<Image
+								src={item.icon}
+								alt={`${item.value} icon`}
+								width={1000}
+								height={1000}
+								className="w-[20px] h-[20px] mr-2"
+							/>
+							<p>{item.value}</p>
 						</DropdownMenuItem>
 					);
 				})}

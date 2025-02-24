@@ -91,11 +91,11 @@ const ContactMe = () => {
 				fill="#5795de"
 			/>
 			<h3
-				className={`uppercase ${irishGrover.className} text-center text-2xl sm:text-3xl md:text-4xl text-purple-500 mb-4`}
+				className={`uppercase ${irishGrover.className} text-center text-2xl sm:text-3xl md:text-4xl text-purple-500 mb-4 leading-normal md:leading-normal`}
 			>
 				Interested in working with me?
 			</h3>
-			<p className="text-sm md:text-base text-center">
+			<p className="text-sm md:text-base text-center leading-loose md:leading-loose">
 				I&apos;m always willing to talk about product design and
 				development work as well as partnership opportunities.
 			</p>
@@ -121,7 +121,7 @@ const ContactMe = () => {
 											: `mailto:${contact.name}`
 									}
 									target="_blank"
-									className="font-bold text-sm underline hover:text-purple-500 transition"
+									className="font-bold text-sm underline hover:text-purple-500 transition leading-loose"
 								>
 									{contact.name}
 								</a>

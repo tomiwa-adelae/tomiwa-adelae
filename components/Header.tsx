@@ -42,17 +42,38 @@ const Header = () => {
 						className="transition hover:text-purple-500"
 						target="_blank"
 					>
-						<Github />
+						<Image
+							src={"/assets/icons/github-icon.svg"}
+							alt={"Github Icon"}
+							width={1000}
+							height={1000}
+							className="w-[20px] h-[20px] dark:invert"
+						/>
 					</a>
 				</Button>
 				<Separator orientation="vertical" className="bg-purple-500" />
-				<Button size="icon" variant={"ghost"} asChild>
+				{/* <Button size="icon" variant={"ghost"} asChild>
 					<a
 						href={"https://x.com/tomiwaadelae"}
 						className="transition hover:text-purple-500"
 						target="_blank"
 					>
 						<Twitter />
+					</a>
+				</Button> */}
+				<Button size="icon" variant={"ghost"} asChild>
+					<a
+						href={"https://wa.me/message/LZZBKPYXUACAF1"}
+						className="transition hover:text-purple-500"
+						target="_blank"
+					>
+						<Image
+							src={"/assets/icons/whatsapp.svg"}
+							alt={"Whatsapp Icon"}
+							width={1000}
+							height={1000}
+							className="w-[20px] h-[20px]"
+						/>
 					</a>
 				</Button>
 				{/* <Separator orientation="vertical" className="bg-purple-500" /> */}

@@ -22,12 +22,12 @@ const Showcase = () => {
 			/>
 			<Header />
 			<h1
-				className={`${irishGrover.className} uppercase text-5xl sm:text-6xl md:text-7xl lg:text-8xl container mt-10`}
+				className={`${irishGrover.className} uppercase text-5xl sm:text-6xl md:text-7xl lg:text-8xl container mt-10 leading-normal md:leading-normal lg:leading-normal`}
 			>
 				Start your Tech Journey{" "}
 				<span className="text-purple-500">with us</span>
 			</h1>
-			<p className="text-base my-6 font-medium container">
+			<p className="text-base my-6 font-medium container leading-loose">
 				Are you curious about how websites are made? Want to learn the
 				skills that can help you build your own site or start a career
 				in tech? You&apos;re in the right place! Our program offers a
