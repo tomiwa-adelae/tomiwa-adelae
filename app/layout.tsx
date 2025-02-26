@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Montserrat } from "next/font/google";
-
+import Head from "next/head";
 import { cn } from "@/lib/utils";
 import { Spotlight } from "@/components/ui/spotlight";
 import { Toaster } from "@/components/ui/toaster";
@@ -34,6 +34,20 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en" suppressHydrationWarning>
+			<Head>
+				<meta property="og:image" content="/full-logo.png" />
+				<meta property="og:image" content="/assets/full-logo.png" />
+				<meta
+					name="viewport"
+					content="width=device-width, initial-scale=1.0, user-scalable=no"
+				/>
+				<meta
+					data-n-head="ssr"
+					data-hid="viewport"
+					name="viewport"
+					content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1"
+				/>
+			</Head>
 			<body
 				className={(cn(`antialiased font-sans`), montserrat.className)}
 			>
