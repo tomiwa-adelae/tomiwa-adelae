@@ -31,6 +31,9 @@ import {
 import { interestedFields } from "@/constants";
 import { registerUser } from "../../../lib/actions/user.actions";
 import { useRouter } from "next/navigation";
+import "react-phone-number-input/style.css";
+import PhoneInput, { isValidPhoneNumber } from "react-phone-number-input";
+import { useState } from "react";
 
 const FormSchema = z.object({
 	firstName: z.string().min(2, {
@@ -40,21 +43,18 @@ const FormSchema = z.object({
 		message: "First name must be at least 2 characters.",
 	}),
 	email: z.string().email(),
-	phoneNumber: z
-		.string()
-		.min(10, {
-			message: "Phone number must be at least 10 characters.",
-		})
-		.max(11, { message: "Phone number must be valid." }),
 	interest: z.string().min(2, {
 		message: "You must select an interested field.",
 	}),
 	message: z.string().optional(),
+	phone: z.string().refine(isValidPhoneNumber, {
+		message: "Invalid phone number",
+	}),
 });
 
 export function RegistrationForm() {
-
-	const router = useRouter()
+	const router = useRouter();
+	const [value, setValue] = useState<string | undefined>(undefined);
 
 	const form = useForm<z.infer<typeof FormSchema>>({
 		resolver: zodResolver(FormSchema),
@@ -62,7 +62,6 @@ export function RegistrationForm() {
 			firstName: "",
 			lastName: "",
 			email: "",
-			phoneNumber: "",
 			interest: "",
 			message: "",
 		},
@@ -74,7 +73,7 @@ export function RegistrationForm() {
 				firstName: data.firstName,
 				lastName: data.lastName,
 				email: data.email,
-				phoneNumber: data.phoneNumber,
+				phoneNumber: value,
 				interest: data.interest,
 				message: data.message,
 			};
@@ -84,14 +83,14 @@ export function RegistrationForm() {
 				description:
 					"Your registration has been sent successfully! I will get back to you within the next 24 hours.",
 			});
-			router.push('/success')
+			router.push("/success");
 		} catch (error) {
 			toast({
 				title: "Error!",
 				description:
 					"An error occurred! Your message couldn't successfully send. Please reach out to me via email or phone number.",
 			});
-			router.push('/error')
+			router.push("/error");
 		}
 	}
 
@@ -149,7 +148,7 @@ export function RegistrationForm() {
 								<FormLabel>Email</FormLabel>
 								<FormControl>
 									<Input
-									type='email'
+										type="email"
 										placeholder="Enter your email"
 										{...field}
 									/>
@@ -160,14 +159,20 @@ export function RegistrationForm() {
 					/>
 					<FormField
 						control={form.control}
-						name="phoneNumber"
+						name="phone"
 						render={({ field }) => (
 							<FormItem>
-								<FormLabel>Phone number</FormLabel>
+								<FormLabel>Phone Number</FormLabel>
 								<FormControl>
-									<Input
-										placeholder="Enter your phone number"
-										{...field}
+									<PhoneInput
+										placeholder="Enter phone number"
+										value={value}
+										onChange={(phone) => {
+											setValue(phone);
+											field.onChange(phone); // Ensure form gets updated
+										}}
+										defaultCountry="NG"
+										className="flex h-14 w-full rounded-md border border-input bg-background px-3 py-2 text-base sm:text-sm"
 									/>
 								</FormControl>
 								<FormMessage />

@@ -14,7 +14,7 @@ export async function registerUser(user: {
 	firstName: string;
 	lastName: string;
 	email: string;
-	phoneNumber: string;
+	phoneNumber: string | undefined;
 	interest: string;
 	message?: string;
 }) {
