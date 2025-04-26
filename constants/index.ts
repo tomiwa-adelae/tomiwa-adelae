@@ -30,13 +30,71 @@ export const contact = [
 
 export const latestWorks = [
 	{
+		image: "/assets/cardio-track.png",
+		title: "Cardio Track",
+		description:
+			"Cardio Track is a full-stack web application built to help users effortlessly record, track, and analyze their cardiovascular activities. Users can log cardio sessions, monitor progress with insightful charts (heart rate, calories burned, distance covered), and receive real-time notifications and health alerts. The platform features a dynamic dashboard, personalized achievement highlights, and an automated email reminder system to keep users engaged. Built with the MERN stack (MongoDB, Express.js, React.js, Node.js) and optimized for speed, responsiveness, and user experience.",
+		github: "https://github.com/tomiwa-adelae/Cardio-Track",
+		website: "https://cardio-track.vercel.app/",
+		style: "order-first",
+		stack: [
+			{
+				name: "NextJS",
+				link: "https://nextjs.org/",
+			},
+			{
+				name: "MongoDB",
+				link: "https://www.mongodb.com/",
+			},
+			{
+				name: "Mailjet",
+				link: "https://www.mailjet.com/",
+			},
+			{
+				name: "Lottie",
+				link: "https://lottiefiles.com",
+			},
+			{
+				name: "Cron",
+				link: "https://console.cron-job.org/login",
+			},
+		],
+	},
+	{
+		image: "/assets/innovation.png",
+		title: "Innovation 4.0",
+		description:
+			"Innovation 4.0 is a modern, dynamic website built to showcase the spirit of innovation and leadership. Designed for an annual event series, the site highlights the journey of Innovation from its inception to its fourth edition, featuring past themes, key organizers, and upcoming activities. The website is fully responsive, visually engaging, and optimized for performance. It includes features like an animated image slider, background video integration via Cloudinary for fast loading, keyboard navigation, and smooth transitions. I focused on creating an immersive user experience with clean design, accessibility in mind, and seamless content presentation. Technologies used: Next.js 14, TypeScript, Tailwind CSS, and Cloudinary.",
+		github: "https://github.com/tomiwa-adelae/Innovation-4.0",
+		website: "https://innovationconference.com.ng/",
+		style: "order-last",
+		stack: [
+			{
+				name: "NextJS",
+				link: "https://nextjs.org/",
+			},
+			{
+				name: "MongoDB",
+				link: "https://www.mongodb.com/",
+			},
+			{
+				name: "Mailjet",
+				link: "https://www.mailjet.com/",
+			},
+			{
+				name: "Typescript",
+				link: "https://www.typescriptlang.org/",
+			},
+		],
+	},
+	{
 		image: "/assets/yafpay.png",
 		title: "YafPay",
 		description:
 			"Welcome to YafPay, where financial convenience knows no bounds. With our innovative banking app, YafPay, you can seamlessly transfer and deposit money anytime, anywhere in the world, putting the power of global transactions in the palm of your hand. Services offered includes: Powerful Mobile & Online App, Full Data Privacy Compliance, 100% Transparent Cost, Commitment Free, Free Plan Available, Debit Mastercard.",
 		github: "https://github.com/ashu378/yafpay-website",
 		website: "https://yafpay.com/",
-		style: "order-last",
+		style: "order-first",
 		stack: [
 			{
 				name: "NextJS",
@@ -117,7 +175,7 @@ export const latestWorks = [
 			"Publicity is a crucial factor in enhancing a university's reputation. A website for the Student Assembly of Ajayi Crowther University would highlight the school's activities and achievements. This website features events, news, information about the executives, press release archives, and articles.",
 		github: "https://github.com/tomiwa-adelae/ACUSA",
 		website: "https://acusa.com.ng/",
-		style: "order-first",
+		style: "order-last",
 		stack: [
 			{
 				name: "HTML",
