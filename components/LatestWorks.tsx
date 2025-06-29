@@ -61,20 +61,30 @@ const LatestWorks = () => {
 								</ul>
 								<div className="flex flex-col md:flex-row items-center justify-center lg:justify-start gap-4">
 									<Button
-										href={work.website}
-										target="_blank"
-										className="p-4 group rounded-md border border-dashed border-purple-500 inline-block bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-50 hover:bg-purple-100 transition"
+										asChild
+										className="bg-transparent w-full"
 									>
-										<SquareArrowOutUpRight className="text-purple-500" />{" "}
-										Visit
+										<a
+											href={work.website}
+											target="_blank"
+											className="p-4 group rounded-md border border-dashed border-purple-500 inline-block bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-50 hover:bg-purple-100 transition"
+										>
+											<SquareArrowOutUpRight className="text-purple-500" />{" "}
+											Visit
+										</a>
 									</Button>
 									<Button
-										href={work.github}
-										target="_blank"
-										className="p-4 rounded-md border border-dashed border-purple-500 inline-block bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-50 hover:bg-purple-100 transition"
+										asChild
+										className="bg-transparent w-full"
 									>
-										<Github className="text-purple-500" />{" "}
-										Code
+										<a
+											href={work.github}
+											target="_blank"
+											className="p-4 rounded-md border border-dashed border-purple-500 inline-block bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-50 hover:bg-purple-100 transition"
+										>
+											<Github className="text-purple-500" />{" "}
+											Code
+										</a>
 									</Button>
 								</div>
 							</div>
