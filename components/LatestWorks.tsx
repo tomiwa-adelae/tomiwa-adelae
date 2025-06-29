@@ -33,7 +33,7 @@ const LatestWorks = () => {
 							alt={work.title}
 							width={1000}
 							height={1000}
-							className={`aspect-auto object-cover rounded-md ${
+							className={`aspect-auto size-full object-cover rounded-md ${
 								index == 1 ? "lg:order-last" : "lg:order-first"
 							}`}
 						/>
@@ -69,7 +69,7 @@ const LatestWorks = () => {
 											target="_blank"
 											className="p-4 group rounded-md border border-dashed border-purple-500 inline-block bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-50 hover:bg-purple-100 transition"
 										>
-											<SquareArrowOutUpRight className="text-purple-500" />{" "}
+											<SquareArrowOutUpRight className="text-purple-500 mr-2 size-4" />{" "}
 											Visit
 										</a>
 									</Button>
@@ -82,7 +82,7 @@ const LatestWorks = () => {
 											target="_blank"
 											className="p-4 rounded-md border border-dashed border-purple-500 inline-block bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-50 hover:bg-purple-100 transition"
 										>
-											<Github className="text-purple-500" />{" "}
+											<Github className="text-purple-500  mr-2 size-4" />{" "}
 											Code
 										</a>
 									</Button>
