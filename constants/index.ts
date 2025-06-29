@@ -30,6 +30,68 @@ export const contact = [
 
 export const latestWorks = [
 	{
+		image: "/assets/imole.png",
+		title: "Reenite – Workspace Booking Platform",
+		description:
+			"Reenite is a modern workspace booking platform that enables individuals to reserve desks, offices, meeting rooms, and creative spaces on-demand. Designed for a single space owner, Reenite combines seamless booking, secure payments, and admin-level controls to manage spaces, track bookings, and personalize customer experiences. From working to relaxing over parfait, Reenite brings flexibility to modern work culture.",
+		github: "https://github.com/tomiwa-adelae/reenite",
+		website: "https://app.reenite.com/all-spaces",
+		style: "order-first",
+		stack: [
+			{
+				name: "NextJS",
+				link: "https://nextjs.org/",
+			},
+			{
+				name: "Clerk",
+				link: "https://clerk.com",
+			},
+			{
+				name: "MongoDB",
+				link: "https://www.mongodb.com/",
+			},
+			{
+				name: "Mailjet",
+				link: "https://www.mailjet.com/",
+			},
+			{
+				name: "Cloudinary",
+				link: "https://www.cloudinary.com/",
+			},
+			{
+				name: "ShadCN UI",
+				link: "https://ui.shadcn.com/",
+			},
+			{
+				name: "Tailwind CSS",
+				link: "https://tailwindcss.com",
+			},
+		],
+	},
+	{
+		image: "/assets/imole.png",
+		title: "Imọlẹ Progressive Network",
+		description:
+			"I designed and developed a complete website for the Imole Network Foundation, a humanitarian non-profit organization based in Nigeria. The site showcases the foundation’s mission, projects, donation initiatives, volunteer programs, and news updates in a clean, accessible, and emotionally engaging format. This project emphasized content strategy, emotional design, and structured scalability to support the foundation’s long-term outreach and digital presence.",
+		github: "https://github.com/tomiwa-adelae/Imole-Network-Foundation",
+		website: "https://imoleprogressivenetwork.org",
+		style: "order-last",
+		stack: [
+			{
+				name: "NextJS",
+				link: "https://nextjs.org/",
+			},
+			{
+				name: "MongoDB",
+				link: "https://www.mongodb.com/",
+			},
+			{
+				name: "Mailjet",
+				link: "https://www.mailjet.com/",
+			},
+		],
+	},
+	{
 		image: "/assets/cardio-track.png",
 		title: "Cardio Track",
 		description:
@@ -41,6 +103,14 @@ export const latestWorks = [
 			{
 				name: "NextJS",
 				link: "https://nextjs.org/",
+			},
+			{
+				name: "Clerk",
+				link: "https://clerk.com",
+			},
+			{
+				name: "Cloudinary",
+				link: "https://www.cloudinary.com/",
 			},
 			{
 				name: "MongoDB",
