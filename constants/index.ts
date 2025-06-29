@@ -30,7 +30,7 @@ export const contact = [
 
 export const latestWorks = [
 	{
-		image: "/assets/imole.png",
+		image: "/assets/reenite.png",
 		title: "Reenite – Workspace Booking Platform",
 		description:
 			"Reenite is a modern workspace booking platform that enables individuals to reserve desks, offices, meeting rooms, and creative spaces on-demand. Designed for a single space owner, Reenite combines seamless booking, secure payments, and admin-level controls to manage spaces, track bookings, and personalize customer experiences. From working to relaxing over parfait, Reenite brings flexibility to modern work culture.",
