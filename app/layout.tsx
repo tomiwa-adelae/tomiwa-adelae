@@ -13,13 +13,10 @@ export const metadata: Metadata = {
 		"Tomiwa Adelae, a skilled, result-driven full stack developer known for crafting immersive online experiences. This portfolio spans from corporate websites to dynamic e-commerce platforms. With a focus on user-centric design and innovative technologies, he brings ideas to life and empowers businesses to succeed in the digital space.",
 	keywords:
 		"tomiwa, adelae, tomiwa adelae, adetomiwa, ademola, adetomiwa adelae, portfolio, website, website developer, web, website development, programmer, programming, backend, frontend, full stack, stack",
-	icons: {
-		icon: "/assets/favicon.ico",
-	},
 	openGraph: {
-		images: "/assets/full-logo.png",
+		images: "/assets/opengraph.jpeg",
 	},
-	metadataBase: new URL("https://www.tomiwaadelae.com.ng"),
+	metadataBase: new URL("https://tomiwaadelae.com.ng"),
 };
 
 const montserrat = Montserrat({
@@ -35,8 +32,8 @@ export default function RootLayout({
 	return (
 		<html lang="en" suppressHydrationWarning>
 			<Head>
-				<meta property="og:image" content="/full-logo.png" />
-				<meta property="og:image" content="/assets/full-logo.png" />
+				<meta property="og:image" content="/opengraph.jpeg" />
+				<meta property="og:image" content="/assets/opengraph.jpeg" />
 				<meta
 					name="viewport"
 					content="width=device-width, initial-scale=1.0, user-scalable=no"
