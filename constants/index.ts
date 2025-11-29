@@ -30,6 +30,74 @@ export const contact = [
 
 export const latestWorks = [
   {
+    image: "/assets/lgs.png",
+    title: "LGS Edumanage – School Management System",
+    description:
+      "LGS Edumanage (Project Star) is a comprehensive school management platform designed for educational institutions. It streamlines student and staff management with complete profiles, attendance tracking, and communication tools. The platform features real-time assessments, curriculum management, detailed reporting, and secure payment processing with enterprise-grade security. Built with role-based access control for administrators, teachers, students, and parents, it provides tailored dashboards and functionality for each user type.",
+    github: "https://github.com/Zionstand/Project-star-frontend",
+    website: "https://lgs-app.zionstand.com/",
+    stack: [
+      {
+        name: "Next.js",
+        link: "https://nextjs.org/",
+      },
+      {
+        name: "NestJS",
+        link: "https://nestjs.com/",
+      },
+      {
+        name: "TypeScript",
+        link: "https://www.typescriptlang.org/",
+      },
+      {
+        name: "PostgreSQL",
+        link: "https://www.postgresql.org/",
+      },
+      {
+        name: "Mailjet",
+        link: "https://www.mailjet.com/",
+      },
+      {
+        name: "Cloudflare",
+        link: "https://www.cloudflare.com/",
+      },
+      {
+        name: "Tailwind CSS",
+        link: "https://tailwindcss.com/",
+      },
+      {
+        name: "ShadCN UI",
+        link: "https://ui.shadcn.com/",
+      },
+    ],
+  },
+  {
+    image: "/assets/afc.png",
+    title: "African Free Fire Community – Esports Platform",
+    description:
+      "African Free Fire Community (AFC) is a competitive esports platform dedicated to Free Fire gaming across Africa. Founded in 2024, it serves as a centralized hub for players to compete, connect, and climb rankings. The platform features tournament management, team creation, skill-based leaderboards, event scheduling, and anti-cheat systems for fair play. With over 1,200 tournaments held and $500K+ in prize pools distributed, AFC empowers African gamers to showcase their skills on a continental stage.",
+    github: "https://github.com/AFRICAN-FREEFIRE-COMMUNITY/AFC_Frontend",
+    website: "https://africanfreefirecommunity.com/",
+    stack: [
+      {
+        name: "Next.js",
+        link: "https://nextjs.org/",
+      },
+      {
+        name: "TypeScript",
+        link: "https://www.typescriptlang.org/",
+      },
+      {
+        name: "Tailwind CSS",
+        link: "https://tailwindcss.com/",
+      },
+      {
+        name: "ShadCN UI",
+        link: "https://ui.shadcn.com/",
+      },
+    ],
+  },
+  {
     image: "/assets/grabcash.png",
     title: "Grabcash – Earn by Completing Social Tasks",
     description:
@@ -73,9 +141,8 @@ export const latestWorks = [
     title: "Leadsage – Real Estate Leasing & Management Platform",
     description:
       "Leadsage is a full-featured real estate leasing and management platform that connects landlords, tenants, and administrators. It simplifies property listings, lease management, and approvals with automated workflows and email notifications. The system includes role-based dashboards, dynamic analytics, and admin controls to manage categories, listings, and user activities. Designed with scalability in mind, Leadsage integrates AWS, Neon, and Tigres for robust performance and reliability.",
-    github: "https://github.com/tomiwa-adelae/Leadsage-web-application", // (update if different)
-    website: "https://leadsage-web-application.vercel.app", // (replace with your actual link or staging URL)
-    // style: "order-last",
+    github: "https://github.com/tomiwa-adelae/Leadsage-Africa",
+    website: "https://www.leadsageafrica.com",
     stack: [
       {
         name: "Next.js",
