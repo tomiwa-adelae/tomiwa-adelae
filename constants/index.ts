@@ -30,6 +30,90 @@ export const contact = [
 
 export const latestWorks = [
   {
+    image: "/assets/airmob.png", // Recommended: A high-res industrial or energy-themed UI shot
+    title: "AIRMOB Nigeria – Energy Value Chain Platform",
+    description:
+      "A sophisticated industrial platform for AIRMOB Nigeria Limited, a leader in the oil and gas sector. The system integrates digital oilfield solutions using AI and IoT to optimize exploration support and lubricant production. It features a robust architecture for managing global energy supply chains, carbon capture initiatives, and sustainable drilling practices. The platform serves as a central hub for corporate communications, stakeholder engagement, and real-time monitoring of industrial services across Africa.",
+    github: "https://github.com/tomiwa-adelae/Airmob", // Update with actual repo if public
+    website: "https://airmob.net.ng/",
+    stack: [
+      {
+        name: "Next.js",
+        link: "https://nextjs.org/",
+      },
+      {
+        name: "TypeScript",
+        link: "https://www.typescriptlang.org/",
+      },
+      {
+        name: "Prisma",
+        link: "https://www.prisma.io/",
+      },
+      {
+        name: "PostgreSQL",
+        link: "https://www.postgresql.org/",
+      },
+      {
+        name: "Mailjet",
+        link: "https://www.mailjet.com/",
+      },
+      {
+        name: "Tailwind CSS",
+        link: "https://tailwindcss.com/",
+      },
+      {
+        name: "Framer Motion",
+        link: "https://www.framer.com/motion/",
+      },
+      {
+        name: "ShadCN UI",
+        link: "https://ui.shadcn.com/",
+      },
+    ],
+  },
+  {
+    image: "/assets/forbliz.png", // Use a screenshot of that bold Amber/Black UI
+    title: "Forbliz Global – Industrial Asset & Engineering Portal",
+    description:
+      "A high-performance industrial platform for Forbliz Global Resources (an AIRMOB subsidiary). The system facilitates project initiation for heavy equipment sourcing, civil engineering, and surface mining logistics. It features a complex Request for Quote (RFQ) engine that captures technical project parameters like tonnage and mobilization timelines, backed by an automated multi-channel notification system for operations management. Built to project corporate authority in the Nigerian construction and mining sectors.",
+    github: "https://github.com/tomiwa-adelae/Forbliz", // Update with actual repo
+    website: "https://forbliz.com", // Update with actual domain
+    stack: [
+      {
+        name: "Next.js 14",
+        link: "https://nextjs.org/",
+      },
+      {
+        name: "Prisma ORM",
+        link: "https://www.prisma.io/",
+      },
+      {
+        name: "PostgreSQL",
+        link: "https://www.postgresql.org/",
+      },
+      {
+        name: "TypeScript",
+        link: "https://www.typescriptlang.org/",
+      },
+      {
+        name: "Tailwind CSS",
+        link: "https://tailwindcss.com/",
+      },
+      {
+        name: "Zod",
+        link: "https://zod.dev/",
+      },
+      {
+        name: "Mailjet API",
+        link: "https://www.mailjet.com/",
+      },
+      {
+        name: "ShadCN UI",
+        link: "https://ui.shadcn.com/",
+      },
+    ],
+  },
+  {
     image: "/assets/lgs.png",
     title: "LGS Edumanage – School Management System",
     description:

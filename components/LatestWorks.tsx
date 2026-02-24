@@ -4,6 +4,7 @@ import { Irish_Grover } from "next/font/google";
 import Image from "next/image";
 import { Spotlight } from "./ui/spotlight";
 import { Button } from "./ui/button";
+import { cn } from "@/lib/utils";
 
 const irishGrover = Irish_Grover({
   subsets: ["latin"],
@@ -32,17 +33,15 @@ const LatestWorks = () => {
               key={index}
               className={`border-2 border-dashed border-purple-500 rounded-md p-2 lg:p-8 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center`}
             >
-              {/* Image section */}
-              <Image
-                src={work.image}
-                alt={work.title}
-                width={1000}
-                height={1000}
-                className={`aspect-auto size-full object-cover rounded-md ${
-                  isEven ? "lg:order-last" : "lg:order-first"
-                }`}
-              />
-
+              <div className={cn(isEven ? "lg:order-last" : "lg:order-first")}>
+                <Image
+                  src={work.image}
+                  alt={work.title}
+                  width={1000}
+                  height={1000}
+                  className={`aspect-auto size-full object-cover rounded-md`}
+                />
+              </div>
               {/* Text section */}
               <div className="flex items-center justify-center">
                 <div
