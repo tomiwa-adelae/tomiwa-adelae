@@ -134,6 +134,64 @@ export const latestWorks = [
     ],
   },
   {
+    image: "/assets/nuvylux.png", // Add a screenshot of the Nuvylux platform
+    title: "Nuvylux – Beauty, Fashion & Innovation Platform",
+    description:
+      "Nuvylux is a multi-sided marketplace blending artistry, culture, and technology for the beauty and fashion industry. Clients can discover and book verified beauty professionals — lash technicians, nail artists, hair stylists, and makeup artists — while also shopping a curated fashion marketplace. The platform supports multiple roles: clients, beauty architects (professionals), brands, and admins. Features include an AI-powered consultation experience, brand storefronts, product listings with cart and checkout, order management, wishlists, a rich blog, and Flutterwave-powered payments.",
+    github: "https://github.com/tomiwa-adelae/nuvylux",
+    website: "https://nuvylux.com.ng",
+    stack: [
+      {
+        name: "Next.js",
+        link: "https://nextjs.org/",
+      },
+      {
+        name: "NestJS",
+        link: "https://nestjs.com/",
+      },
+      {
+        name: "TypeScript",
+        link: "https://www.typescriptlang.org/",
+      },
+      {
+        name: "Prisma",
+        link: "https://www.prisma.io/",
+      },
+      {
+        name: "PostgreSQL",
+        link: "https://www.postgresql.org/",
+      },
+      {
+        name: "AWS S3",
+        link: "https://aws.amazon.com/s3/",
+      },
+      {
+        name: "Flutterwave",
+        link: "https://flutterwave.com/",
+      },
+      {
+        name: "Mailjet",
+        link: "https://www.mailjet.com/",
+      },
+      {
+        name: "Framer Motion",
+        link: "https://www.framer.com/motion/",
+      },
+      {
+        name: "TanStack Query",
+        link: "https://tanstack.com/query",
+      },
+      {
+        name: "Tailwind CSS",
+        link: "https://tailwindcss.com/",
+      },
+      {
+        name: "ShadCN UI",
+        link: "https://ui.shadcn.com/",
+      },
+    ],
+  },
+  {
     image: "/assets/airmob.png", // Recommended: A high-res industrial or energy-themed UI shot
     title: "AIRMOB Nigeria – Energy Value Chain Platform",
     description:
