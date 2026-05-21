@@ -30,6 +30,110 @@ export const contact = [
 
 export const latestWorks = [
   {
+    image: "/assets/ekovibe.png", // Add a screenshot of the Ekovibe platform
+    title: "Ekovibe – Lagos' Premier Event & Experience Platform",
+    description:
+      "Ekovibe is a full-featured event discovery and ticketing platform for Lagos' most exclusive experiences. Users can discover and book tickets for concerts, private dining, art exhibitions, nightlife, and luxury experiences. The platform supports multiple roles — regular users, vendors, and venue owners — each with dedicated dashboards. Features include QR code-based ticket scanning at the door, a merchandise vault, table reservation management, newsletter subscriptions, membership tiers, and wallet/withdrawal systems for vendors and venue owners. Paystack powers all payments end-to-end.",
+    github: "https://github.com/tomiwa-adelae/Ekovibes",
+    website: "https://www.ekovibe.com.ng",
+    stack: [
+      {
+        name: "Next.js",
+        link: "https://nextjs.org/",
+      },
+      {
+        name: "NestJS",
+        link: "https://nestjs.com/",
+      },
+      {
+        name: "TypeScript",
+        link: "https://www.typescriptlang.org/",
+      },
+      {
+        name: "Prisma",
+        link: "https://www.prisma.io/",
+      },
+      {
+        name: "PostgreSQL",
+        link: "https://www.postgresql.org/",
+      },
+      {
+        name: "AWS S3",
+        link: "https://aws.amazon.com/s3/",
+      },
+      {
+        name: "Paystack",
+        link: "https://paystack.com/",
+      },
+      {
+        name: "Mailjet",
+        link: "https://www.mailjet.com/",
+      },
+      {
+        name: "Tailwind CSS",
+        link: "https://tailwindcss.com/",
+      },
+      {
+        name: "ShadCN UI",
+        link: "https://ui.shadcn.com/",
+      },
+    ],
+  },
+  {
+    image: "/assets/staxis.png", // Add a screenshot of the Staxis platform
+    title: "Staxis – Managed Digital Support Platform",
+    description:
+      "Staxis by Zionstand Digital Technologies is a subscription-based managed digital-support platform for Nigerian businesses. It offers website care plans, IT infrastructure support, and data intelligence services. The platform features role-based dashboards for admins and clients, a full support ticket system, an IT manager module, billing and subscription management with Paystack, analytics, and a Tiptap-powered blog and content management system. Admins can broadcast notifications, manage SEO, and review a full audit log — all from a centralized control panel.",
+    github: "https://github.com/tomiwa-adelae/zdt",
+    website: "https://staxis.zionstand.com",
+    stack: [
+      {
+        name: "Next.js",
+        link: "https://nextjs.org/",
+      },
+      {
+        name: "NestJS",
+        link: "https://nestjs.com/",
+      },
+      {
+        name: "TypeScript",
+        link: "https://www.typescriptlang.org/",
+      },
+      {
+        name: "Prisma",
+        link: "https://www.prisma.io/",
+      },
+      {
+        name: "PostgreSQL",
+        link: "https://www.postgresql.org/",
+      },
+      {
+        name: "AWS S3",
+        link: "https://aws.amazon.com/s3/",
+      },
+      {
+        name: "Paystack",
+        link: "https://paystack.com/",
+      },
+      {
+        name: "Mailjet",
+        link: "https://www.mailjet.com/",
+      },
+      {
+        name: "Framer Motion",
+        link: "https://www.framer.com/motion/",
+      },
+      {
+        name: "Tailwind CSS",
+        link: "https://tailwindcss.com/",
+      },
+      {
+        name: "ShadCN UI",
+        link: "https://ui.shadcn.com/",
+      },
+    ],
+  },
+  {
     image: "/assets/airmob.png", // Recommended: A high-res industrial or energy-themed UI shot
     title: "AIRMOB Nigeria – Energy Value Chain Platform",
     description:
