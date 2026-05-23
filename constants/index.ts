@@ -30,6 +30,52 @@ export const contact = [
 
 export const latestWorks = [
   {
+    image: "/assets/leadsage.png",
+    title: "Leadsage – Real Estate Leasing & Management Platform",
+    description:
+      "Leadsage is a full-featured real estate leasing and management platform that connects landlords, tenants, and administrators. It simplifies property listings, lease management, and approvals with automated workflows and email notifications. The system includes role-based dashboards, dynamic analytics, and admin controls to manage categories, listings, and user activities. Designed with scalability in mind, Leadsage integrates AWS, Neon, and Tigres for robust performance and reliability.",
+    github: "https://github.com/tomiwa-adelae/Leadsage-Africa",
+    website: "https://www.leadsageafrica.com",
+    stack: [
+      {
+        name: "Next.js",
+        link: "https://nextjs.org/",
+      },
+      {
+        name: "NestJS",
+        link: "https://nestjs.com/",
+      },
+      {
+        name: "PostgreSQL (Neon)",
+        link: "https://neon.tech/",
+      },
+      {
+        name: "Mailjet",
+        link: "https://www.mailjet.com/",
+      },
+      {
+        name: "Tigres (S3)",
+        link: "https://tigres.io/",
+      },
+      {
+        name: "Arcjet",
+        link: "https://www.arcjet.com/",
+      },
+      {
+        name: "AWS",
+        link: "https://aws.amazon.com/",
+      },
+      {
+        name: "ShadCN UI",
+        link: "https://ui.shadcn.com/",
+      },
+      {
+        name: "Tailwind CSS",
+        link: "https://tailwindcss.com/",
+      },
+    ],
+  },
+  {
     image: "/assets/ekovibe.png", // Add a screenshot of the Ekovibe platform
     title: "Ekovibe – Lagos' Premier Event & Experience Platform",
     description:
@@ -382,53 +428,6 @@ export const latestWorks = [
       },
     ],
   },
-  {
-    image: "/assets/leadsage.png",
-    title: "Leadsage – Real Estate Leasing & Management Platform",
-    description:
-      "Leadsage is a full-featured real estate leasing and management platform that connects landlords, tenants, and administrators. It simplifies property listings, lease management, and approvals with automated workflows and email notifications. The system includes role-based dashboards, dynamic analytics, and admin controls to manage categories, listings, and user activities. Designed with scalability in mind, Leadsage integrates AWS, Neon, and Tigres for robust performance and reliability.",
-    github: "https://github.com/tomiwa-adelae/Leadsage-Africa",
-    website: "https://www.leadsageafrica.com",
-    stack: [
-      {
-        name: "Next.js",
-        link: "https://nextjs.org/",
-      },
-      {
-        name: "NestJS",
-        link: "https://nestjs.com/",
-      },
-      {
-        name: "PostgreSQL (Neon)",
-        link: "https://neon.tech/",
-      },
-      {
-        name: "Mailjet",
-        link: "https://www.mailjet.com/",
-      },
-      {
-        name: "Tigres (S3)",
-        link: "https://tigres.io/",
-      },
-      {
-        name: "Arcjet",
-        link: "https://www.arcjet.com/",
-      },
-      {
-        name: "AWS",
-        link: "https://aws.amazon.com/",
-      },
-      {
-        name: "ShadCN UI",
-        link: "https://ui.shadcn.com/",
-      },
-      {
-        name: "Tailwind CSS",
-        link: "https://tailwindcss.com/",
-      },
-    ],
-  },
-
   {
     image: "/assets/reenite.png",
     title: "Reenite – Workspace Booking Platform",
