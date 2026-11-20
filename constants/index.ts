@@ -30,6 +30,55 @@ export const contact = [
 
 export const latestWorks = [
   {
+    image: "/assets/frndshq.png",
+    title: "FRNDSHQ – Music Distribution Platform for African Artists",
+    description:
+      "FRNDSHQ is a music distribution platform for African artists and labels, built as three applications: a native iOS and Android app, a REST API, and a web admin console. Artists sign up, verify their email, and build releases from their phone — artwork, tracks, contributor credits, and audio files that upload straight to cloud storage and are validated on the server before submission. Labels manage an artist roster and invite team members with scoped seats. Admins work a review queue to approve or reject submissions with notes, manage accounts and staff, and every action is recorded in an audit log. Phase 1 was delivered in full; the client paused the project before store launch.",
+    github: "https://github.com/tomiwa-adelae/FRNDSHQ-App",
+    stack: [
+      {
+        name: "React Native (Expo)",
+        link: "https://expo.dev/",
+      },
+      {
+        name: "NestJS",
+        link: "https://nestjs.com/",
+      },
+      {
+        name: "Next.js",
+        link: "https://nextjs.org/",
+      },
+      {
+        name: "TypeScript",
+        link: "https://www.typescriptlang.org/",
+      },
+      {
+        name: "Prisma",
+        link: "https://www.prisma.io/",
+      },
+      {
+        name: "PostgreSQL (Neon)",
+        link: "https://neon.tech/",
+      },
+      {
+        name: "Cloudflare R2",
+        link: "https://www.cloudflare.com/developer-platform/r2/",
+      },
+      {
+        name: "Mailjet",
+        link: "https://www.mailjet.com/",
+      },
+      {
+        name: "NativeWind",
+        link: "https://www.nativewind.dev/",
+      },
+      {
+        name: "Tailwind CSS",
+        link: "https://tailwindcss.com/",
+      },
+    ],
+  },
+  {
     image: "/assets/leadsage.png",
     title: "Leadsage – Real Estate Leasing & Management Platform",
     description:

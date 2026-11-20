@@ -83,16 +83,18 @@ const LatestWorks = () => {
                         : "justify-center lg:justify-start"
                     }`}
                   >
-                    <Button asChild className="bg-transparent w-full">
-                      <a
-                        href={work.website}
-                        target="_blank"
-                        className="p-4 group rounded-md border border-dashed border-purple-500 inline-block bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-50 hover:bg-purple-100 hover:text-purple-500 text-purple-500 transition"
-                      >
-                        <SquareArrowOutUpRight className="text-purple-500 mr-2 size-4" />
-                        Visit
-                      </a>
-                    </Button>
+                    {work.website && (
+                      <Button asChild className="bg-transparent w-full">
+                        <a
+                          href={work.website}
+                          target="_blank"
+                          className="p-4 group rounded-md border border-dashed border-purple-500 inline-block bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-50 hover:bg-purple-100 hover:text-purple-500 text-purple-500 transition"
+                        >
+                          <SquareArrowOutUpRight className="text-purple-500 mr-2 size-4" />
+                          Visit
+                        </a>
+                      </Button>
+                    )}
 
                     <Button asChild className="bg-transparent w-full">
                       <a
